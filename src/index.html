@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title>Robin Wassink | My portfolio </title>
+    <meta name="keywords" content="Robin, Wassink" />
+    <meta name="description" content="Hey, my name is Robin Wassink and I'm a software developer from Switzerland. Have a look at my portfolio!" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title">
+        </h1>
+        <h1 class="hero-subtitle">
+          <br>
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Get to know me</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="500px"
+                width="300px"
+                src="assets/profile2.jpg"
+                sporalt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I have recently achieved my Bachelor of Science majoring in Informatics and Sciences at the University of Zürich. I have a passion for technology and tinkering, from software engineering to do handicrafts. 
+              </p>
+              <p class="about-wrapper__info-text">
+                Next to my excitement for tech and craft, I am also interested in sports in the winter and summer as well as travelling near and far.
+              </p>
+              <p class="about-wrapper__info-text">
+                Have a look at some of my projects I have worked on in the last few years of studying and working. 
+              </p>
+              <!-- <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span> -->
+
+              <p class="about-cta load-hidden">
+                <a rel="noreferrer" class="cta-btn cta-btn--about" href="#projects"
+                  >To the projects </a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Education Section **** -->
+    <!-- <section id="education">
+      <div class="container">
+        <div class="education-wrapper"> 
+          <h2 class="section-title load-hidden">Education</h2>
+        </div> 
+      </div>
+    </section> -->
+    <!-- **** /END Education Section **** -->
+
+    <!-- **** Work Experience Section **** -->
+    <!-- <section id="experience">
+      <div class="container">
+        <div class="experience-wrapper"> 
+          <h2 class="section-title load-hidden">Work experience</h2>
+
+        </div> 
+      </div>
+    </section> -->
+    <!-- **** /END Work Experience Section **** -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+          
+          <!-- /NEW Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">IntraHub</h3>
+                <div>
+                  <p class="mb-4">
+                    Since my internship in summer 2021, I have been developing and maintaining IntraHub as a parttime job. IntraHub is an online collaborationsoftware for companies that appreciate data security and privacy. Based on open-source applications, IntraHub delivers an efficient collaborationplatform in a secure Swiss Cloud.  
+                  </p>
+                  <p class="mb-4">
+                    <b>Skills used: </b> Docker, JavaScript, React.js, Git, bash scripting, HTML & CSS
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://intrahub.ch"
+                >
+                  To the website
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/IntraHub.png"
+                    />
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- /NEW Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Bachelor Thesis: Implementation and Detection of SSDF Attacks Affecting Crowdsensing Platforms</h3>
+                <div>
+                  <p class="mb-4">
+                    In my last semester of university, I have developped novel attacks affecting spectrum sensing devices. Their effectiveness in infected devices has been evaluated based on a sophisticated machine learning framework. 
+                  </p>
+                  <p class="mb-4">
+                    <b>Skills used:</b>  C++, Python, Machine Learning
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/wasibo/BT_SSDF_Attacks"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/BA.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- /NEW Project -->
+          <!-- <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Smart Mirror</h3>
+                <div>
+                  <p class="mb-4">
+                    Next to developping at uni and work, I love to do handicrafts at home. A small project worth mentioning is the smart mirror in our entrance, built from a Raspberry PI, an old laptopscreen, some bed slats and the open source software magic mirror. 
+                  </p>
+                  <p class="mb-4">
+                    <b>Skills used: Linux, handicrafts</b> 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/wasibo/"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div> -->
+          <!-- /END Project -->
+
+          <!-- /NEW Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Decentralized Voting platform </h3>
+                <div>
+                  <p class="mb-4">
+                    In association with an academic seminar, we have developed a decentralized voting platform. This was successfully deployed on a distributed ledger based on the Ethereum blockchain.
+                  </p>
+                  <p class="mb-4">
+                    <b>Skills used:</b>  Blockchain, Solidity, React.js
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/wasibo/blockchain-programming"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/blockchain.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- /NEW Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Brolat: An improved university platform for students</h3>
+                <div>
+                  <p class="mb-4">
+                    For the main software engineering assignment of the study, our group decided to create an improved platform for students at our university. Brolat should provide a simple calendar with task management, individually corresponding modules, forums for debates and much more. Being responsible for the backend has been an interesting but satisfying challenge.
+                  </p>
+                  <p class="mb-4">
+                    <b>Skills used:</b>  Java, Spring Boot, React.js, Git CI/CD, Scrum
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/sopra-fs21-group-09/sopra-fs21-group-09-server"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                <img
+                  alt="Project Image"
+                  class="img-fluid"
+                  src="assets/brolat.jpg"
+                />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Want to know more?</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--about"
+            href="mailto:robin@wassink.ch"
+            >Send me an email!</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/robin-wassink-226b8a224/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/wasibo" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr />
+
+        <p class="footer__text">
+          © 2022 - Website by Robin Wassink
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
