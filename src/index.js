@@ -1,7 +1,7 @@
-import initScrollReveal from "./scripts/scrollReveal";
-import initTiltEffect from "./scripts/tiltAnimation";
-import initHeroText from "./scripts/heroText";
-import { targetElements, defaultProps } from "./data/scrollRevealConfig";
+import initScrollReveal from "./scripts/scrollReveal.js";
+import initTiltEffect from "./scripts/tiltAnimation.js";
+import initHeroText from "./scripts/heroText.js";
+import { targetElements, defaultProps } from "./data/scrollRevealConfig.js";
 
 initScrollReveal(targetElements, defaultProps);
 initTiltEffect();
